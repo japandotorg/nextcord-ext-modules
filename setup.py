@@ -1,16 +1,9 @@
-from setuptools import setup
-
-with open('requirements.txt') as f:
-    requirements = f.read().splitlines()
+from distutils.core import setup
     
 version = '0.1.0'
 
 with open('README.md', encoding='utf-8') as f:
     readme = f.read()
-    
-extra_require = {
-    'databases': 'databases',
-}
 
 setup(
     name='nextcord-ext-space',
@@ -27,10 +20,18 @@ setup(
     long_description=readme,
     long_description_content_type='text/markdown',
     include_package_data=True,
-    install_requires=requirements,
-    extra_require=extra_require,
+    install_requires=[
+        'nextcord==2.0.0a6',
+        'databases',
+    ],
+    keywords=[
+        'nextcord',
+        'extension',
+        'discord'
+    ],
     classifiers=[
         'License :: OSI Approved :: MIT License',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'Natural Language :: English',
         'Operating System :: OS Independent',
