@@ -39,7 +39,7 @@ class Pitch(HTTPClient):
         super().__init__(*args, **kwargs)
         
         from . import __version__ # circular import
-        self.user_agent += f' discord-ext-space/{__version__}'
+        self.user_agent += f' nextcord-ext-space/{__version__}'
         
     @classmethod
     def from_http_client(cls, http_client: HTTPClient, session_cls: Meteor, earth: Earth):
