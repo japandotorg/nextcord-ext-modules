@@ -3,7 +3,6 @@ import json
 
 from databases import Database
 import sqlalchemy
-from sqlalchemy import sql
 
 from .base import BaseRecorder
 from ..op import OpDetails
