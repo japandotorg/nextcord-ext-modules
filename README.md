@@ -1,5 +1,11 @@
-# space
+# nextcord/ext/space
+
 ![discord](https://img.shields.io/discord/772708529744248842?color=red&label=discord&style=flat-square)
+![pythonVersion](https://img.shields.io/pypi/pyversions/nextcord-ext-space)
+![implementation](https://img.shields.io/pypi/implementation/nextcord-ext-space)
+![format](https://img.shields.io/pypi/format/nextcord-ext-space)
+![status](https://img.shields.io/pypi/status/nextcord-ext-space)
+![version](https://img.shields.io/pypi/v/nextcord-ext-space)
 ![license](https://img.shields.io/github/license/japandotorg/nextcord-ext-space)
 
 An event logger for [nextcord](https://github.com/nextcord/nextcord).
