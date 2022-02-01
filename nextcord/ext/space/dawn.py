@@ -4,7 +4,6 @@ import typing
 from functools import wraps
 
 from aiohttp.typedefs import StrOrURL
-from aiohttp.client_reqrep import ClientResponse
 
 from .recorders.base import BaseRecorder
 from .flags import EventFlags, OpFlags

@@ -1,4 +1,4 @@
-from typing import List, Callable, Tuple
+from typing import List, Callable
 from dataclasses import dataclass
 
 from .flags import OpFlags
